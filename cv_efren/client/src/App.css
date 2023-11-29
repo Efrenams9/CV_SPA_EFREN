@@ -1,16 +1,10 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: .5rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -33,10 +27,17 @@
   }
 }
 
-.card {
-  padding: 2em;
+
+
+
+
+.generalApp{
+  background-color: rgb(188, 166, 147);
 }
 
-.read-the-docs {
-  color: #888;
+ .perfilAnimado img{
+  width: 20%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Elimina el espacio debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 }
