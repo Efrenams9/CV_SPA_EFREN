@@ -10,7 +10,7 @@
 
 
 .generalApp{
-  background-color: #547bb7;
+  background-color: #5B5859;
   display:flex; /* Utiliza un contenedor flexible para distribuir los elementos horizontalmente */
   
 }
@@ -18,8 +18,11 @@
 
 
 .generalApp .ladoDerecho{
+  width: 80%;
   margin-right: 5%;
   margin-left: 25%;
+  top: 0;
+  right: 0;
 }
 
 .generalApp .ladoIzquierdo {

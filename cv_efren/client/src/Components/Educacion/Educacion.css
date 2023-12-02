@@ -1,8 +1,8 @@
 .styloEducacion{
-    width: 80%;
+    width: 100%;
     align-items: center;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
 }
 
 
@@ -16,4 +16,10 @@
     padding: 10px;
     margin: 10px;
     position: relative;
+    border-radius: 25%;
+}
+
+.styloEducacion .manejoImagenes :hover img {
+    background-color:#4729de;
+    transition: all 0.5s ease-in-out;
 }

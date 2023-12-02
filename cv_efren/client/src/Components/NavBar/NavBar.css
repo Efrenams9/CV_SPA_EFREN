@@ -1,16 +1,19 @@
 .colorBarra {
   height: 100vh;
   color: #050507;
-  background-color: #212026;
+  background-color: #77120B;
   padding: 10px;
   display: flex; /* Hace que .colorBarra sea un contenedor flexible */
   flex-direction: column; /* Coloca los elementos de arriba a abajo */
   align-items: center; /* Centra horizontalmente los elementos */
   justify-content: center; /* Centra verticalmente los elementos */
+  border-right: #050507 5px solid;
 }
 .colorBarra .perfilAnimado img {
   width: 80%;
   height: auto; /* Para mantener la proporción de la imagen */
   display: block; /* Elimina el espacio debajo de la imagen */
   margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+  border-radius: 20%;
+  border: #050507 5px solid;
 }
