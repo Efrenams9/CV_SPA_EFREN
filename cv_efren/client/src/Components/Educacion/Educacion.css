@@ -1,25 +1,26 @@
 .styloEducacion{
     width: 100%;
-    align-items: center;
     display: flex;
-    margin: 0 auto;
+    flex-direction:row;
 }
 
 
 
 .styloEducacion .manejoImagenes img {
-    display: flex;
-    width: 200px;
+    /* display: flex; */
+    width: 120px;
     height: auto;
     background-color:#212026;
-    overflow: hidden;
+    overflow:scroll;
     padding: 10px;
     margin: 10px;
     position: relative;
     border-radius: 25%;
+    transition: background-color .3s ease-in-out;
 }
 
-.styloEducacion .manejoImagenes :hover img {
+.styloEducacion .manejoImagenes img:hover  {
     background-color:#4729de;
-    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    
 }

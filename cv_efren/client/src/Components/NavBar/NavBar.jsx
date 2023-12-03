@@ -5,6 +5,7 @@ import perfilAnimado from "../../images/perfilAnimado.jpg";
 const NavBar = () => {
   return (
     <div className="colorBarra">
+      <h2>FULL STACK DEVELOPER</h2>
       <h2>EFRÉN MARíN </h2>
       <div className="perfilAnimado" alt="perfil animado">
         <img src={perfilAnimado}></img>

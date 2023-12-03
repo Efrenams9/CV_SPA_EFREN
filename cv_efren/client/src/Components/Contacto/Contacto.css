@@ -1,0 +1,8 @@
+.capa_uno{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  border-top: #EDEAE6 solid 10px;
+  color: beige;
+};
