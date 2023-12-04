@@ -12,12 +12,14 @@ import logoREACT from "../../images/logoREACT.png";
 import logoREDUX from "../../images/logoREDUX2.png";
 import logoSEQUELIZE from "../../images/logoSEQUELIZE.png";
 
+
+
 const Educacion = () => {
   return (
     <>
       <h2>Educacion</h2>
       <div className="styloEducacion">
-        <div className="manejoImagenes">
+        <div className="manejoImagenesLenguajes">
           <img src={logoHTML} alt="icono logoHTML"></img>
           <img src={logoCSS} alt="icono logoCSS"></img>
           <img src={iconoJavaScript} alt="icono JavaScript"></img>
@@ -28,6 +30,20 @@ const Educacion = () => {
           <img src={logoSEQUELIZE} alt="logo PostgreSQL "></img>
         </div>
       </div>
+        <h2>CUALIDADES</h2>
+        {/*abajo se ponen las imagenes de las cualidades, actitudes y soft skills*/}
+        {/* <div className="">
+          <img src={} alt="icono l"></img>
+          <img src={} alt="icono logoCSS"></img>
+          <img src={} alt="icono Jav"></img>
+          <img src={} alt="icono lo"></img>
+          <img src={} alt="icono log"></img>
+          <img src={} alt="icono lo"></img>
+          <img src={} alt="logo Pos "></img>
+          <img src={} alt="logo Pos "></img>
+        </div> */}
+       
+    
     </>
   );
 };

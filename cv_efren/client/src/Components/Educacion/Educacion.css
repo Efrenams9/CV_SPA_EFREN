@@ -6,7 +6,7 @@
 
 
 
-.styloEducacion .manejoImagenes img {
+.styloEducacion .manejoImagenesLenguajes img {
     /* display: flex; */
     width: 120px;
     height: auto;
@@ -19,8 +19,9 @@
     transition: background-color .3s ease-in-out;
 }
 
-.styloEducacion .manejoImagenes img:hover  {
+.styloEducacion .manejoImagenesLenguajes img:hover  {
     background-color:#4729de;
     transform: scale(1.1);
     
 }
+
