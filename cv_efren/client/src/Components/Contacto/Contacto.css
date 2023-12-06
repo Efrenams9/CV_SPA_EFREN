@@ -1,13 +1,14 @@
 .capa_uno{
-  position: relative;
+  /* position: relative; */
+  display: flex;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: rgb(239, 12, 12);
   border-top: #EDEAE6 solid 10px;
   color: beige;
 }
 
-.logoContactos img {
+.capa_uno img {
   /* display: flex; */
   width: 120px;
   /* height: auto;
