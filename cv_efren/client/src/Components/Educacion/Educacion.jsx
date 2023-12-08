@@ -11,13 +11,24 @@ import logoNodejs from "../../images/logoNodejs.png";
 import logoREACT from "../../images/logoREACT.png";
 import logoREDUX from "../../images/logoREDUX2.png";
 import logoSEQUELIZE from "../../images/logoSEQUELIZE.png";
-
-
+//importacion de soft skills:
+import comunicativo from "../../images/comunicativo.jpg";
+import creatividad from "../../images/creatividad.avif";
+import reflexivo from "../../images/reflexivo.jpg";
+import resilencia from "../../images/resilencia.jpg";
+import sistematicotrans from "../../images/sistematicotrans.png";
+import optimismo from '../../images/optimismo.png';
+import paciencia1 from '../../images/paciencia1.avif';
+import iemocional from '../../images/iemocional.jpg';
+import organizado from '../../images/organizado.avif';
+import autodidacta from '../../images/autodidacta.png';
+// import  from '../../images/.jpg';
 
 const Educacion = () => {
   return (
     <>
       <h2>Educacion</h2>
+      <h2>HARD SKILLS</h2>
       <div className="styloEducacion">
         <div className="manejoImagenesLenguajes">
           <img src={logoHTML} alt="icono logoHTML"></img>
@@ -30,20 +41,22 @@ const Educacion = () => {
           <img src={logoSEQUELIZE} alt="logo PostgreSQL "></img>
         </div>
       </div>
-        <h2>CUALIDADES</h2>
-        {/*abajo se ponen las imagenes de las cualidades, actitudes y soft skills*/}
-        {/* <div className="">
-          <img src={} alt="icono l"></img>
-          <img src={} alt="icono logoCSS"></img>
-          <img src={} alt="icono Jav"></img>
-          <img src={} alt="icono lo"></img>
-          <img src={} alt="icono log"></img>
-          <img src={} alt="icono lo"></img>
-          <img src={} alt="logo Pos "></img>
-          <img src={} alt="logo Pos "></img>
-        </div> */}
-       
-    
+      <h2>SOFT SKILLS</h2>
+      {/*abajo se ponen las imagenes de las cualidades, actitudes y soft skills*/}
+      <div className="styloEducacion">
+        <div className="manejoImagenesLenguajes">
+          <img src={comunicativo} alt="icono comunicativo"></img>
+          <img src={creatividad} alt="icono creatividad"></img>
+          <img src={reflexivo} alt="icono reflexivo"></img>
+          <img src={resilencia} alt="icono resilencia"></img>
+          <img src={sistematicotrans} alt="icono sistematicotrans"></img>
+          <img src={optimismo} alt="icono optimismo"></img>
+          <img src={paciencia1} alt="icono paciencia"></img>
+          <img src={iemocional} alt="icono iemocional"></img>
+          <img src={organizado} alt="icono organizado"></img>
+          <img src={autodidacta} alt="icono autodidacta"></img>
+        </div>
+      </div>
     </>
   );
 };

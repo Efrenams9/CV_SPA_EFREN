@@ -9,7 +9,7 @@
 .styloEducacion .manejoImagenesLenguajes img {
     /* display: flex; */
     width: 120px;
-    height: auto;
+    height: 120px;
     background-color:#212026;
     overflow:scroll;
     padding: 10px;

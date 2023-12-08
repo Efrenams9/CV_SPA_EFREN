@@ -11,27 +11,29 @@ const NavBar = () => {
         <img src={perfilAnimado}></img>
       </div>
       <nav>
-        <ul>
-          <li>
-            <a href="#acerca-de-mi">ACERCA DE MI</a>
-          </li>
-          <li>
-            <a href="#proyectos">PROYECTOS</a>
-          </li>
-          <li>
-            <a href="#educacion">EDUCACIÓN</a>
-          </li>
-          <li>
-            <a href="#habilidades">HABILIDADES</a>
-          </li>
-          <li>
-            <a href="#curriculum">CURRICULUM</a>
-          </li>
-          <li>
-            <a href="#contacto">CONTACTO</a>
-          </li>
+      
+      <div className="buttonNav">
+        
+            <button href="#acerca-de-mi">ACERCA DE MI</button>
+          
+        
+            <button href="#proyectos">PROYECTOS</button>
+          
+        
+            <button href="#educacion">EDUCACIÓN</button>
+          
+        
+            <button href="#habilidades">HABILIDADES</button>
+          
+        
+            <button href="#curriculum">CURRICULUM</button>
+          
+        
+            <button href="#contacto">CONTACTO</button>
+      </div>
+          
 
-        </ul>
+
       </nav>
     </div>
   );
