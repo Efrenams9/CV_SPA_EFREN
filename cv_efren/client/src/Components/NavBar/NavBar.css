@@ -18,6 +18,29 @@
   border: #050507 5px solid;
 }
 
+@keyframes balanceoAmboslados {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Aplica ambas animaciones a la imagen de perfil en hover */
+.colorBarra .perfilAnimado img:hover {
+  animation: balanceoAmboslados 0.5s ease-in-out;
+}
+
 .buttonNav button {
  background-color: #000000;
  color: bisque;
@@ -27,6 +50,6 @@
 .buttonNav button:hover {
   background-color:red ;
   color: #000000;
-  border: gray 5px;
+  box-shadow: 0 0 15px rgb(0, 153, 180);
 }
 
