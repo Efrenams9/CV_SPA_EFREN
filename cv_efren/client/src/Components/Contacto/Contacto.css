@@ -1,13 +1,15 @@
 .capa_uno{
-  display: flexbox;
+  display: flex;
   bottom: 0;
   width: 100%;
   background-color: rgb(0, 0, 0);
   border-top: #EDEAE6 solid 10px;
   color: beige;
   align-items: center;
-  text-align: center;
-  justify-content: space-around;
+  /* text-align: center;
+  justify-content: space-around; */
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .capa_uno img {

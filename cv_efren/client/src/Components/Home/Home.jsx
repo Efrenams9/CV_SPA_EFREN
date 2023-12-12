@@ -2,7 +2,7 @@
 
 //*importanciones
 import Contacto from "../Contacto/Contacto";
-import AboutMe from "../AboutMe/AbourMe";
+import AboutMe from "../AboutMe/AboutMe";
 import Educacion from "../Educacion/Educacion";
 import Proyectos from "../Proyectos/Proyectos";
 import Curriculum from "../Curriculum/Curriculum";

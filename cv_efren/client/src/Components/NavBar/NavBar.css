@@ -1,7 +1,7 @@
 .colorBarra {
   height: 100vh;
   color: #050507;
-  background-color: #4500CF;
+  background: linear-gradient(to bottom, #C31410, #4500CF);
   padding: 10px;
   display: flex; /* Hace que .colorBarra sea un contenedor flexible */
   flex-direction: column; /* Coloca los elementos de arriba a abajo */
@@ -23,13 +23,13 @@
     transform: rotate(0deg);
   }
   25% {
-    transform: rotate(4deg);
+    transform: rotate(4.5deg);
   }
   50% {
     transform: rotate(0deg);
   }
   75% {
-    transform: rotate(-4deg);
+    transform: rotate(-4.5deg);
   }
   100% {
     transform: rotate(0deg);
@@ -43,12 +43,13 @@
 
 .buttonNav button {
  background-color: #000000;
+ width: 150px;
  color: bisque;
  margin: 5px;
 }
 
 .buttonNav button:hover {
-  background-color:red ;
+  background-color:rgb(253, 1, 39) ;
   color: #000000;
   box-shadow: 0 0 15px rgb(0, 153, 180);
 }
