@@ -1,7 +1,7 @@
 const Proyectos =()=>{
     return (
         <div>
-            <h2>LOS PROYECTOS :PP</h2>
+            <h2>LOS PROYECTOSfdghfdtr :PP</h2>
         </div>
     );
 };

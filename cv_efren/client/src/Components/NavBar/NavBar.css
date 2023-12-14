@@ -1,7 +1,7 @@
 .colorBarra {
   height: 100vh;
   color: #050507;
-  background: linear-gradient(to bottom, #C31410, #4500CF);
+  background: linear-gradient(to bottom, #c31410, #4500cf);
   padding: 10px;
   display: flex; /* Hace que .colorBarra sea un contenedor flexible */
   flex-direction: column; /* Coloca los elementos de arriba a abajo */
@@ -42,15 +42,56 @@
 }
 
 .buttonNav button {
- background-color: #000000;
- width: 150px;
- color: bisque;
- margin: 5px;
+  background-color: #000000;
+  width: 150px;
+  color: bisque;
+  margin: 5px;
 }
 
 .buttonNav button:hover {
-  background-color:rgb(253, 1, 39) ;
+  background-color: rgb(253, 1, 39);
   color: #000000;
   box-shadow: 0 0 15px rgb(0, 153, 180);
 }
 
+/* @media screen and (min-width: 320px) and (max-width: 768px){
+  .colorBarra{
+    display:flexbox;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .colorBarra {
+    display:flow-root;
+    top: 0;
+    height: 0%;
+    color: #050507;
+    background: linear-gradient(to left, #c31410, #4500cf);
+    padding: 15%;
+    display: flex; /* Hace que .colorBarra sea un contenedor flexible */
+    flex-direction: column; /* Coloca los elementos de arriba a abajo */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    border-right: #050507 3px solid;
+    z-index: 1000;
+  }
+
+  .colorBarra .perfilAnimado img {
+    width: 15%;
+    height: auto; /* Para mantener la proporción de la imagen */
+    display:flex; /* Elimina el espacio debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+    border-radius: 20%;
+    border: #050507 5px solid;
+  }
+  .buttonNav button {
+    background-color: #000000;
+    width: 75px;
+    color: bisque;
+    margin: 5px;
+  }
+  .text h2 {
+    size: none;
+    color: white;
+  }
+}

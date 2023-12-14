@@ -3,10 +3,11 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div>
-      <div className="titleme">
+    <div className="titleme">
+      <div>
         <h1>ACERCA DE MÍ</h1>
       </div>
+      <div className="texto"></div>
       <h3>
         ¡Hola, cómo están! Como podrán observar, mi nombre es Efrén. Tengo 20
         años y actualmente soy estudiante de programación en Soy Henry. Además,

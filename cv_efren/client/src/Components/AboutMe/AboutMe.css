@@ -1,3 +1,18 @@
 .titleme h1 {
     color: #8A0B67;
 }
+
+@media screen and (max-width: 768px){
+    .textme{
+
+        width: 1000%;
+        justify-content: center;
+        text-align: center;
+    }
+    .titleme .texto{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+}

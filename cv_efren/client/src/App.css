@@ -29,33 +29,27 @@
   padding-right: 5%; */
 }
 
-
-
 /*movil*/
-@media (max-width: 767px) {
-  .desktop {
-    display: none;
-  }
-  .tablet {
-    display: none;
-  }
-}
-/*tablet*/
-@media (min-width: 768px) and (max-width: 990px) {
-  .desktop {
-    display: none;
-  }
 
-  .movil {
-    display: none;
+@media screen and (max-width: 768px){
+  .contenedorGeneral {
+    background-color: #c9c5c6;
+    display:inline-table; /* Utiliza un contenedor flexible para distribuir los elementos horizontalmente */
   }
-}
-/*desktop*/
-@media (min-width: 991px) {
-  .tablet {
-    display: none;
+  
+  .contenedorGeneral .ladoIzquierdo {
+    position:none;
+    top:0;
+    height: 15vh;
+    width: 100%;
+    
   }
-  .movil {
-    display: none;
+  
+  .contenedorGeneral .ladoDerecho {
+    flex:none;
+    margin-left: none;
+    background-color: #ffffff;
+    width: 100%;
+
   }
 }
